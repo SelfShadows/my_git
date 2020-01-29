@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*link(a标签的链接没有被点击过)*/
+        a:link{
+            color: green;
+        }
+        /*a标签的链接被点击过*/
+        a:visited{
+            color: red;
+        }
+        /*a标签的链接左键按住选定时*/
+        a:active{
+            color: forestgreen;
+        }
+        /*hover(感知鼠标移动到a标签的链接)*/
+        a:hover{
+            color: blue;
+        }
+        #d1{
+            color: red;
+        }
+
+        #d1:hover{
+            color: aqua;
+        }
+        /*input输入框获取焦点的样式*/
+        input:focus{
+            outline 0;
+            background-color: red;
+        }
+
+        /*伪元素选择器====================================>*/
+        /*给首字母设置特殊样式*/
+        p:first-letter{
+            font-size: 48px;
+            color: burlywood;
+        }
+        /*在所有组标签c1之前插入内容*/
+        .c1:before{
+            content: '**';
+            color: red;
+        }
+        /*在所有组标签c1之后插入内容*/
+        .c1:after{
+            content: '[?]';
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.sogo.com">sogo</a>
+    <a href="http://www.baidu.com">baidu</a>
+    <a href="http://www.baidddu.com">baidu</a>
+    <a href="http://www.xiaohua.com">baidu</a>
+
+    <div id="d1">我是div标签</div>
+    <input type="text">
+
+    <p>在苍茫的大海上，狂风卷积这乌云。</p>
+    <p class="c1">在苍茫的大海上，狂风卷积这乌云。</p>
+    <p class="c1">在苍茫的大海上，狂风卷积这乌云。</p>
+</body>
+</html>

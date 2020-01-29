@@ -1,0 +1,35 @@
+/*
+这个文件是干啥的
+小强
+2019-8-15
+*/
+
+/*全局的样式*/
+*{
+    font-family: "微软雅黑","Microsoft YaHei","PingFang SC","ARial";
+    font-size: 14px;
+}
+/*bolder加粗,lighter更细*/
+.c1{
+    font-weight: bolder;
+    /*color: #f45a8d;*/
+    color: rgba(255,255,0,1);
+}
+
+.c2{
+    font-weight: lighter;
+}
+/*居中对其*/
+.c3{
+    text-align: center;
+}
+/*indent首行缩进多少像素*/
+.c4{
+    text-align: justify;
+    text-indent: 28px;
+}
+/*去掉a标签的下划线*/
+a{
+    text-decoration: none;
+}
+

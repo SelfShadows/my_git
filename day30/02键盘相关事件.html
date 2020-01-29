@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>键盘相关事件</title>
+</head>
+<body>
+<table border="1" id="t1">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>姓名</th>
+        <th>爱好</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>小李</td>
+        <td>羽毛球</td>
+        <td>
+            <select name="" id="">
+                <option>离线</option>
+                <option>上线</option>
+                <option>下线</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>老肖</td>
+        <td>乒乓球</td>
+        <td>
+            <select name="" id="">
+                <option>离线</option>
+                <option>上线</option>
+                <option>下线</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><input type="checkbox"></td>
+        <td>阿保机</td>
+        <td>篮球</td>
+        <td>
+            <select name="" id="">
+                <option>离线</option>
+                <option>上线</option>
+                <option>下线</option>
+            </select>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<script src="jquery-3.4.1.js"></script>
+<script>
+    var mode = false;
+    $bodyEle = $("body");
+    // 监听键盘按下去的事件
+    $bodyEle.on("keydown", function (event) {
+        // 显示按下的键的编码
+        console.log(event.keyCode);
+        if (event.keyCode === 17) {
+            // 按ctrl进入批量操作模式
+            mode = true
+        }
+    });
+    // 监听键盘弹起来的事件
+    $bodyEle.on("keyup", function (event) {
+        if (event.keyCode === 17) {
+            // 退出批量操作模式
+            mode = false
+        }
+    });
+
+    $("select").on("change", function () {
+        // 获取改变后的select的值
+        var value = $(this).val();
+        var $checkboxEle = $(this).parent().siblings().first().find(":checkbox");
+        // 判断当前被改变的这行的checkbox是否被选中，以及判断是否进入批量模式
+        if ($checkboxEle.prop('checked') && mode) {
+            // 找出所有被选中的checkbox
+            var $checkedEle = $("input[type='checkbox']:checked");
+            for (i = 0; i < $checkedEle.length; i++) {
+                $($checkedEle[i]).parent().siblings().last().find('select').val(value)
+            }
+        }
+
+
+    })
+
+
+</script>
+</body>
+</html>

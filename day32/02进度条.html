@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!--    viewport 支持移动端,并且移动设备优先 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="progress">
+  <div id="d1" class=" progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+    0%
+  </div>
+</div>
+
+<script src="jquery-3.4.1.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+    var $d1Ele=$('#d1');
+    var n=0;
+    var theID=setInterval(foo,200);
+    function foo() {
+
+        if (n===100){
+            clearInterval(theID);
+        }else{
+            n++;
+            $d1Ele.text(n+'%').css('width',n+'%')
+
+        }
+
+    }
+</script>
+
+</body>
+</html>

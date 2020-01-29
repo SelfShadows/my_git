@@ -1,0 +1,31 @@
+/*
+解释性信息
+*/
+
+/*全局通用的样式*/
+
+/*导航条样式*/
+
+/*商品列表样式*/
+
+/*标签选择器*/
+p {
+    color: black;
+    font-size: 50px;
+}
+h1{
+    color: yellow;
+}
+/*id选择器*/
+#p1{
+    color: red;
+    font-size: 22px;
+}
+#p2{
+    color: lawngreen;
+}
+
+/*类选择器*/
+.c1{
+    color: green;
+}

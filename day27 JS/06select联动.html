@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select id="i1">
+    <option value="0">请选择省份</option>
+    <option value="1">四川</option>
+    <option value="2">北京</option>
+</select>
+<select id="i2">
+    <option value=""></option>
+</select>
+<script>
+    var data = {1: ['昌平', '海淀', '朝阳'], 2: ['成都', '甘孜', '绵阳']};
+    var i1Ele = document.getElementById('i1');
+    // 给select绑定一个事件，绑定的是onchange事件
+    i1Ele.onchange = function () {
+        var i2Ele = document.getElementById('i2');
+        // 清空之前的
+        i2Ele.innerHTML = '';
+        ares = data[this.value];
+        // 循环添加每一个城市的option标签
+        for (var i = 0; i < ares.length; i++) {
+            // 创建一个option标签
+            var opEle = document.createElement('option');
+            opEle.innerText = ares[i];
+            // 添加到select内部
+            i2Ele.appendChild(opEle)
+        }
+    }
+
+
+</script>
+
+</body>
+</html>

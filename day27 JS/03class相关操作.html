@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="event02"></script>
+    <style>
+        .c1 {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: grey;
+        }
+
+        .c2 {
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<div  class="c1 c2 c3" onclick="aa()">div</div>
+<div  class="c1 c2 c3" onclick="aa()">div</div>
+<div class="c1 c2 c3">div</div>
+<div class="c1 c2 c3">div</div>
+
+<script>
+    function aa(ths) {
+        ths.classList.toggle('c2')
+    }
+
+    var divElm = document.getElementsByTagName('div');
+
+    for (var i = 0; i < divElm.length; i++) {
+        // console.log(divElm[i]);
+        divElm[i].onclick = function () {
+            this.classList.toggle('c2');
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<form action="" id="d1">
+    <p>
+    <label for="d2">用户名:
+        <input id="d2" class="need" type="text">
+        <span class="error"></span>
+    </label>
+    </p>
+    <p>
+    <label for="d3">密码:
+        <input id="d3" class="need" type="password">
+        <span class="error"></span>
+    </label>
+    </p>
+    <input id="d4" type="submit" value="提交">
+</form>
+
+<script src="jquery-3.4.1.js"></script>
+<script>
+    // 绑定单机提交按钮的事件
+    $("#d4").click(function () {
+        // 找input标签，判断input标签的值是否为空
+        var $inEles=$('.need');
+        var flag = true;
+        for (var i=0;i < $inEles.length;i++ ){
+            $($inEles[i]).next().text('');
+            if ($($inEles[i]).val().trim().length === 0){
+                // 找父标签的内容并去空格，再切片
+                labelName=$($inEles[i]).parent().text().trim().slice(0,-1);
+                $($inEles[i]).next().text(labelName+'不能为空')
+                flag = false
+            }
+        }
+        return flag
+    })
+</script>
+
+
+</body>
+</html>

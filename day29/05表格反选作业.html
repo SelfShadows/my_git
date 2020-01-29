@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>表格反选作业</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>姓名</th>
+        <th>爱好</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input class="c2" type="checkbox"></td>
+        <td>老肖</td>
+        <td>羽毛球</td>
+    </tr>
+    <tr>
+        <td><input class="c2" type="checkbox"></td>
+        <td>老李</td>
+        <td>篮球</td>
+    </tr>
+    <tr>
+        <td><input class="c2" type="checkbox"></td>
+        <td>小李</td>
+        <td>乒乓球</td>
+    </tr>
+    </tbody>
+</table>
+<input type="button" class="c1" id="b1" value="全选">
+<input type="button" class="c1" id="b2" value="反选">
+<input type="button" class="c1" id="b3" value="取消">
+
+<script src="jquery-3.4.1.js"></script>
+<script>
+    // checkbox和radio用prop
+    $('#b1').click(function () {
+        $(':checkbox').prop('checked',true)
+    });
+
+    $('#b3').click(function () {
+        $(':checkbox').prop('checked',false)
+    });
+
+    $('#b2').click(function () {
+        var $chex= $(':checkbox')
+        for (var i=0; i<$chex.length;i++){
+            if ($($chex[i]).prop('checked', )==true){
+                $($chex[i]).prop('checked', false)
+            }else{
+                $($chex[i]).prop('checked', true)
+            }
+        }
+    })
+
+</script>
+</body>
+</html>

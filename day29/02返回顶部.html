@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #i1{
+            background-color: #666666;
+            position: fixed;
+            right: 40px;
+            bottom: 40px;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="i1" class="hide">
+    <p id="i2">返回顶部</p>
+</div>
+<p>1</p>
+<p>122</p>
+<p>122</p>
+<p>122</p>
+<p>122</p>
+<p>133</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<p>1</p>
+<script src="jquery-3.4.1.js"></script>
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >100){
+            $('#i1').removeClass('hide');
+        }else{
+            $('#i1').addClass('hide')
+        }
+    })
+
+    $('#i1').click(function () {
+        $(window).scrollTop(0)
+    })
+</script>
+</body>
+</html>

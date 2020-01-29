@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>on绑定事件：表格添加数据</title>
+</head>
+<body>
+<table border="1" id="t1">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>姓名</th>
+        <th>爱好</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>小李</td>
+        <td>羽毛球</td>
+        <td>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>老肖</td>
+        <td>乒乓球</td>
+        <td>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>阿保机</td>
+        <td>篮球</td>
+        <td>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<button id="i1">添加数据</button>
+
+<script src="jquery-3.4.1.js"></script>
+<script>
+    $("#i1").on("click",function () {
+        var trEle = document.createElement('tr');
+        $(trEle).html("<td>4</td>\n" +
+            "          <td>小东北</td>\n" +
+            "          <td>哈哈</td>\n" +
+            "          <td><button class=\'del\'>删除</button></td>");
+        $("#t1").find('tbody').append(trEle);
+    });
+    // 触发的是.del的点击事件，并把事件委托给tbody
+    $("tbody").on("click",".del",function () {
+        $(this).parent().parent().remove()
+    })
+</script>
+
+</body>
+</html>

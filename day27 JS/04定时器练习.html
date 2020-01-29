@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="i1" type="text">
+<input id="start" type="button" value="开始">
+<input id="stop" type="button" value="结束">
+<script>
+    function foo(){
+        // 1.获取当前时间
+        var now = new Date();
+        var nowStr = now.toLocaleString();
+        // 把时间字符串填入input框里
+        var ilEle = document.getElementById('i1');
+        i1.value = nowStr;
+    }
+    // 声明一个全局变量t
+    var t;
+    console.log(t)
+    // 点开始让时间动起来
+    var startButoon = document.getElementById('start')
+    startButoon.onclick=function () {
+        // 每隔一秒钟执行foo
+        foo();
+        if (t==undefined){
+            t=setInterval(foo,1000);  //把定时器的ID赋值给之前声明的全局变量t
+        }
+
+    }
+    // 点结束让时间停止
+    var stopButoon=document.getElementById('stop')
+    stopButoon.onclick=function (){
+        // 清除之前设置的定时器
+        clearInterval(t)  //清除t对应的那个定时器，但是t的值还在
+        t=undefined
+    }
+</script>
+</body>
+</html>

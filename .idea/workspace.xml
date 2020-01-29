@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61ad5d8f-08a1-4298-a395-6246f7f05081" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="userinfo@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="01python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day110redis/redis单例模式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day110redis/02redis之列表操作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day110redis/03redis之事务操作.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day110redis/04手写一个栈.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day110redis/05redis_购物车.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day110redis/01redisDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0/LocalCache/local-packages/Python37/site-packages/redis/connection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8340">
+              <caret line="308" column="28" selection-start-line="308" selection-start-column="28" selection-end-line="308" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0/LocalCache/local-packages/Python37/site-packages/redis/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24810">
+              <caret line="852" column="42" selection-start-line="852" selection-start-column="42" selection-end-line="852" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day34/xx/oo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day30/03点赞特效.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>article</find>
+      <find>算法</find>
+      <find>label</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day02/03.1 修复装饰器.py" />
+        <option value="$PROJECT_DIR$/day32/01font-awesome.html" />
+        <option value="$PROJECT_DIR$/day32/02进度条.html" />
+        <option value="$PROJECT_DIR$/day32/03Toastr示例.html" />
+        <option value="$PROJECT_DIR$/day32/03Toastr弹出框示例.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8b7a05ca-d101-4b62-b511-2fb35a930071/console.sql" />
+        <option value="$PROJECT_DIR$/day33/01pymysql.py" />
+        <option value="$PROJECT_DIR$/day22MySQL/01sql登陆+(正确方式).py" />
+        <option value="$PROJECT_DIR$/day22MySQL/01sql登陆+(sql注入).py" />
+        <option value="$PROJECT_DIR$/day22MySQL/03增删改.py" />
+        <option value="$PROJECT_DIR$/day22MySQL/05插入关联的自增id.py" />
+        <option value="$PROJECT_DIR$/day22MySQL/04查.py" />
+        <option value="$PROJECT_DIR$/day33/01不成功剥皮函数.py" />
+        <option value="$PROJECT_DIR$/day33/02不完善的web示例.py" />
+        <option value="$PROJECT_DIR$/day33Django/03根据路径返回网页.py" />
+        <option value="$PROJECT_DIR$/day32/修改dashboard自带样式/Dashboard Template for Bootstrap.html" />
+        <option value="$PROJECT_DIR$/day08/03反射.py" />
+        <option value="$PROJECT_DIR$/day33其他/07时间间隔.py" />
+        <option value="$PROJECT_DIR$/day33其他/04类测试.py" />
+        <option value="$PROJECT_DIR$/day33其他/08类测试.py" />
+        <option value="$PROJECT_DIR$/day02/03.1 修复装饰器的副作用.py" />
+        <option value="$PROJECT_DIR$/day30/00今日面试题.py" />
+        <option value="$PROJECT_DIR$/day13/03大文件的传输--c.py" />
+        <option value="$PROJECT_DIR$/day24web前端/01socket_demo.py" />
+        <option value="$PROJECT_DIR$/day06/02序列化模块json.py" />
+        <option value="$PROJECT_DIR$/day33其他/09字符串导入模块.py" />
+        <option value="$PROJECT_DIR$/day34/xx/oo.py" />
+        <option value="$PROJECT_DIR$/day34/02单例模式复习.py" />
+        <option value="$PROJECT_DIR$/day31Bootstrap/03栅格系统.html" />
+        <option value="$PROJECT_DIR$/day32/01font-awesome图标.html" />
+        <option value="$PROJECT_DIR$/day29/01修改css样式.html" />
+        <option value="$PROJECT_DIR$/day26/08overflow溢出属性.html" />
+        <option value="$PROJECT_DIR$/day34/01字符串导入模块.py" />
+        <option value="$PROJECT_DIR$/day09/01内置函数.py" />
+        <option value="$PROJECT_DIR$/day09/03hashlib模块.py" />
+        <option value="$PROJECT_DIR$/day000/01公开课/001常用小知识.py" />
+        <option value="$PROJECT_DIR$/day000/001常用小知识.py" />
+        <option value="$PROJECT_DIR$/day000/01练习.py" />
+        <option value="$PROJECT_DIR$/day31Bootstrap/05登陆.html" />
+        <option value="$PROJECT_DIR$/day99VUE/01let和const.html" />
+        <option value="$PROJECT_DIR$/day99VUE/01vue.html" />
+        <option value="$PROJECT_DIR$/day01/01装饰器.py" />
+        <option value="$PROJECT_DIR$/day110/redisDemo.py" />
+        <option value="$PROJECT_DIR$/day110/02redis之列表操作.py" />
+        <option value="$PROJECT_DIR$/day110redis/00redis单例模式.py" />
+        <option value="$PROJECT_DIR$/day110redis/redis单例模式.py" />
+        <option value="$PROJECT_DIR$/day110redis/02redis之列表操作.py" />
+        <option value="$PROJECT_DIR$/day110redis/03redis之事务操作.py" />
+        <option value="$PROJECT_DIR$/day110redis/04手写一个栈.py" />
+        <option value="$PROJECT_DIR$/day110redis/01redisDemo.py" />
+        <option value="$PROJECT_DIR$/day110redis/05redis_购物车.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="188" />
+    <option name="y" value="413" />
+    <option name="width" value="1324" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day000" type="462c0819:PsiDirectoryNode" />
+              <item name="01公开课" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day04正则re模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day05time,random模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day11网络编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day15ftp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day16并发编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day22MySQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day24web前端" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day25css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day26" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day27 JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day28jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day29" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day30" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day31Bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day32" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day99VUE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01python" type="462c0819:PsiDirectoryNode" />
+              <item name="day110redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day99VUE" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\01python\day99VUE" />
+      <recent name="D:\01python\day27 JS" />
+      <recent name="D:\01python\day32" />
+      <recent name="D:\01python\day33Django" />
+      <recent name="D:\01python\day32\修改dashboard自带样式" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\01python\day000" />
+      <recent name="D:\01python\day34" />
+      <recent name="D:\01python\day31Bootstrap" />
+      <recent name="D:\01python\day29" />
+      <recent name="D:\01python\day26" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.05redis_购物车">
+    <configuration name="01redisDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day110redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day110redis/01redisDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02redis之列表操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day110redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day110redis/02redis之列表操作.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03redis之事务操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day110redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day110redis/03redis之事务操作.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04手写一个栈" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day110redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day110redis/04手写一个栈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05redis_购物车" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="01python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day110redis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day110redis/05redis_购物车.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.05redis_购物车" />
+        <item itemvalue="Python.01redisDemo" />
+        <item itemvalue="Python.02redis之列表操作" />
+        <item itemvalue="Python.04手写一个栈" />
+        <item itemvalue="Python.03redis之事务操作" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61ad5d8f-08a1-4298-a395-6246f7f05081" name="Default Changelist" comment="" />
+      <created>1562742821692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562742821692</updated>
+      <workItem from="1562742828169" duration="17952000" />
+      <workItem from="1562828288499" duration="4137000" />
+      <workItem from="1562835744468" duration="15642000" />
+      <workItem from="1562896920992" duration="4782000" />
+      <workItem from="1562902476265" duration="7616000" />
+      <workItem from="1562982658686" duration="14299000" />
+      <workItem from="1563122440104" duration="1029000" />
+      <workItem from="1563167404259" duration="207000" />
+      <workItem from="1563167993390" duration="5314000" />
+      <workItem from="1563239412063" duration="15456000" />
+      <workItem from="1563332271217" duration="19803000" />
+      <workItem from="1563422122520" duration="19442000" />
+      <workItem from="1563501826700" duration="20547000" />
+      <workItem from="1563595452349" duration="21830000" />
+      <workItem from="1563682618955" duration="10389000" />
+      <workItem from="1563772381757" duration="12446000" />
+      <workItem from="1563854238258" duration="15203000" />
+      <workItem from="1563936985637" duration="15748000" />
+      <workItem from="1564025335032" duration="11976000" />
+      <workItem from="1564105794392" duration="127000" />
+      <workItem from="1564196989071" duration="760000" />
+      <workItem from="1564292109681" duration="7054000" />
+      <workItem from="1564363531767" duration="20193000" />
+      <workItem from="1564451259634" duration="8438000" />
+      <workItem from="1564638172112" duration="18221000" />
+      <workItem from="1564707784244" duration="5908000" />
+      <workItem from="1564804717405" duration="22058000" />
+      <workItem from="1564879596117" duration="13157000" />
+      <workItem from="1564986113931" duration="3944000" />
+      <workItem from="1565142938552" duration="1314000" />
+      <workItem from="1565252966167" duration="662000" />
+      <workItem from="1565401284262" duration="903000" />
+      <workItem from="1565403096717" duration="1811000" />
+      <workItem from="1565406098244" duration="637000" />
+      <workItem from="1565406910321" duration="494000" />
+      <workItem from="1565407743130" duration="3176000" />
+      <workItem from="1565439388324" duration="801000" />
+      <workItem from="1565484263837" duration="6416000" />
+      <workItem from="1565584168283" duration="9753000" />
+      <workItem from="1565656180978" duration="17276000" />
+      <workItem from="1565742091873" duration="8984000" />
+      <workItem from="1565840562498" duration="20095000" />
+      <workItem from="1565919018938" duration="5169000" />
+      <workItem from="1566014819672" duration="18767000" />
+      <workItem from="1566093944497" duration="11479000" />
+      <workItem from="1566209175545" duration="856000" />
+      <workItem from="1566302038977" duration="977000" />
+      <workItem from="1566351450142" duration="13847000" />
+      <workItem from="1566458841513" duration="17371000" />
+      <workItem from="1566532628115" duration="3109000" />
+      <workItem from="1566718001312" duration="630000" />
+      <workItem from="1566729417180" duration="10238000" />
+      <workItem from="1566788148211" duration="18898000" />
+      <workItem from="1566865069595" duration="6229000" />
+      <workItem from="1566886152303" duration="11647000" />
+      <workItem from="1566962106938" duration="17724000" />
+      <workItem from="1567053800454" duration="13073000" />
+      <workItem from="1567139019113" duration="11695000" />
+      <workItem from="1567225381643" duration="19539000" />
+      <workItem from="1567301116798" duration="8656000" />
+      <workItem from="1567392030143" duration="11355000" />
+      <workItem from="1567657275264" duration="5569000" />
+      <workItem from="1568435751056" duration="6839000" />
+      <workItem from="1568447050176" duration="283000" />
+      <workItem from="1568448880589" duration="499000" />
+      <workItem from="1568451662054" duration="87000" />
+      <workItem from="1568785211413" duration="45000" />
+      <workItem from="1568967393914" duration="1467000" />
+      <workItem from="1569215480695" duration="1604000" />
+      <workItem from="1569308445860" duration="657000" />
+      <workItem from="1569312323278" duration="9000" />
+      <workItem from="1570857494397" duration="3481000" />
+      <workItem from="1572515771608" duration="2422000" />
+      <workItem from="1572585666262" duration="595000" />
+      <workItem from="1573364749848" duration="619000" />
+      <workItem from="1573545272418" duration="640000" />
+      <workItem from="1573707986928" duration="3756000" />
+      <workItem from="1573799588778" duration="2033000" />
+      <workItem from="1573972384583" duration="1000000" />
+      <workItem from="1573999158903" duration="1125000" />
+      <workItem from="1574056876409" duration="1465000" />
+      <workItem from="1574062685370" duration="1180000" />
+      <workItem from="1574065481219" duration="776000" />
+      <workItem from="1574136404047" duration="1198000" />
+      <workItem from="1574146911262" duration="416000" />
+      <workItem from="1574148318742" duration="631000" />
+      <workItem from="1574398853377" duration="1219000" />
+      <workItem from="1574484507271" duration="68000" />
+      <workItem from="1574491533425" duration="985000" />
+      <workItem from="1574568760796" duration="1197000" />
+      <workItem from="1574573683062" duration="1243000" />
+      <workItem from="1574582297782" duration="3233000" />
+      <workItem from="1574667165049" duration="1215000" />
+      <workItem from="1575186416727" duration="67000" />
+      <workItem from="1575374789618" duration="1824000" />
+      <workItem from="1575532640373" duration="2011000" />
+      <workItem from="1575797929106" duration="775000" />
+      <workItem from="1575811899007" duration="18000" />
+      <workItem from="1575950421542" duration="70000" />
+      <workItem from="1575956222800" duration="6000" />
+      <workItem from="1576408789838" duration="1518000" />
+      <workItem from="1577170326012" duration="1661000" />
+      <workItem from="1577196168200" duration="1533000" />
+      <workItem from="1577276553117" duration="591000" />
+      <workItem from="1577518958558" duration="289000" />
+      <workItem from="1577772861596" duration="384000" />
+      <workItem from="1577773271777" duration="2025000" />
+      <workItem from="1577866073897" duration="300000" />
+      <workItem from="1577877888950" duration="726000" />
+      <workItem from="1577948596790" duration="141000" />
+      <workItem from="1577949180524" duration="3266000" />
+      <workItem from="1577979823186" duration="3000" />
+      <workItem from="1578038172397" duration="744000" />
+      <workItem from="1578042124308" duration="127000" />
+      <workItem from="1578060176372" duration="1309000" />
+      <workItem from="1578070190966" duration="185000" />
+      <workItem from="1578115703710" duration="38000" />
+      <workItem from="1578123320946" duration="25000" />
+      <workItem from="1578212171600" duration="1000" />
+      <workItem from="1578310979653" duration="17000" />
+      <workItem from="1578377455490" duration="435000" />
+      <workItem from="1579250533691" duration="646000" />
+      <workItem from="1579692340003" duration="4354000" />
+      <workItem from="1579846497785" duration="159000" />
+      <workItem from="1579859005266" duration="2657000" />
+      <workItem from="1579934286409" duration="8494000" />
+      <workItem from="1580279365849" duration="196000" />
+      <workItem from="1580279591588" duration="38000" />
+      <workItem from="1580280001612" duration="5054000" />
+      <workItem from="1580286673852" duration="1082000" />
+      <workItem from="1580291699484" duration="2845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="700429000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82398754" visible="true" weight="0.11567164" />
+      <window_info id="Structure" order="1" sideWeight="0.1879845" side_tool="true" weight="0.21637426" />
+      <window_info id="Favorites" order="2" sideWeight="0.17601246" side_tool="true" weight="0.16732283" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.051861703" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49854228" weight="0.25460455" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.25568798" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32713756" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50145775" side_tool="true" weight="0.34341908" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32359308" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" weight="0.3292517" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.4383117" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.45852187" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="R Graphics" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="6" weight="0.4897152" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83116883" visible="true" weight="0.1964462" />
+      <window_info id="Structure" order="1" sideWeight="0.16883117" side_tool="true" weight="0.16151386" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32829046" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49854228" visible="true" weight="0.19970846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32789117" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50145775" side_tool="true" weight="0.34341908" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3257677" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32517007" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.3292517" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32944608" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day16并发编程/04使用多进程实现socket服务/02client.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/01python$05redis_.coverage" NAME="05redis_购物车 Coverage Results" MODIFIED="1580299222658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110redis" />
+    <SUITE FILE_PATH="coverage/01python$04client.coverage" NAME="04client作业 Coverage Results" MODIFIED="1563780579096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/01python$02web.coverage" NAME="02不完善的web示例 Coverage Results" MODIFIED="1568438954692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
+    <SUITE FILE_PATH="coverage/01python$041.coverage" NAME="04装饰器作业1 Coverage Results" MODIFIED="1562762151958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01python$03_1_.coverage" NAME="03.1 修复装饰器的副作用 Coverage Results" MODIFIED="1573972606019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day02" />
+    <SUITE FILE_PATH="coverage/01python$04_s.coverage" NAME="04网上大文件传输-s Coverage Results" MODIFIED="1565881642903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/01python$04shelve.coverage" NAME="04序列化shelve Coverage Results" MODIFIED="1563435539746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/01python$03.coverage" NAME="03生成器的表达式 Coverage Results" MODIFIED="1572519582410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/01python$06.coverage" NAME="06池 Coverage Results" MODIFIED="1564988005593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/01python$07concurrent_futures.coverage" NAME="07concurrent.futures模块回调函数 Coverage Results" MODIFIED="1564820994099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/01python$clinet.coverage" NAME="clinet Coverage Results" MODIFIED="1564905869083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/03基于协程的socket" />
+    <SUITE FILE_PATH="coverage/01python$001.coverage" NAME="001常用小知识 Coverage Results" MODIFIED="1577866370141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$06udp_c2t.coverage" NAME="06udp_c2t Coverage Results" MODIFIED="1563793844654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$072.coverage" NAME="07爬虫小练习2 Coverage Results" MODIFIED="1573713355999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04正则re模块" />
+    <SUITE FILE_PATH="coverage/01python$01_s.coverage" NAME="01网盘_s Coverage Results" MODIFIED="1563881555438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/01python$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1564716552084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day19/04多线程实现socket" />
+    <SUITE FILE_PATH="coverage/01python$22.coverage" NAME="22 Coverage Results" MODIFIED="1566870052002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$06udp_c.coverage" NAME="06udp_c Coverage Results" MODIFIED="1563793995390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$3.coverage" NAME="3 Coverage Results" MODIFIED="1564644770820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/04进程池实现socket" />
+    <SUITE FILE_PATH="coverage/01python$07.coverage" NAME="07时间间隔 Coverage Results" MODIFIED="1577519192734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33其他" />
+    <SUITE FILE_PATH="coverage/01python$01logging.coverage" NAME="01logging模块 Coverage Results" MODIFIED="1563690731036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
+    <SUITE FILE_PATH="coverage/01python$01_multiprocessing_.coverage" NAME="01 multiprocessing 模块 Coverage Results" MODIFIED="1564645292065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16多进程" />
+    <SUITE FILE_PATH="coverage/01python$0151job.coverage" NAME="01爬虫51job Coverage Results" MODIFIED="1566395969339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000/01公开课" />
+    <SUITE FILE_PATH="coverage/01python$33.coverage" NAME="33排序 Coverage Results" MODIFIED="1566476444089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$03time.coverage" NAME="03time小练习 Coverage Results" MODIFIED="1564824076555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05time,random模块" />
+    <SUITE FILE_PATH="coverage/01python$lambda.coverage" NAME="lambda练习 Coverage Results" MODIFIED="1566366995272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27 JS" />
+    <SUITE FILE_PATH="coverage/01python$02client1.coverage" NAME="02client1 Coverage Results" MODIFIED="1564371440253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16多进程/04使用多进程实现socket服务" />
+    <SUITE FILE_PATH="coverage/01python$02time.coverage" NAME="02time模块 Coverage Results" MODIFIED="1564823448839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05time,random模块" />
+    <SUITE FILE_PATH="coverage/01python$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1563438745524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/01python$01server.coverage" NAME="01server Coverage Results" MODIFIED="1573999206779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$02.coverage" NAME="02面向对象进阶 Coverage Results" MODIFIED="1577772966176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/01python$4.coverage" NAME="4 Coverage Results" MODIFIED="1564644523022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/04进程池实现socket" />
+    <SUITE FILE_PATH="coverage/01python$01socket_demo.coverage" NAME="01socket_demo Coverage Results" MODIFIED="1574000021100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24web前端" />
+    <SUITE FILE_PATH="coverage/01python$06JoinableQueue.coverage" NAME="06生产者消费者模型JoinableQueue Coverage Results" MODIFIED="1564458366035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day17" />
+    <SUITE FILE_PATH="coverage/01python$02client.coverage" NAME="02client Coverage Results" MODIFIED="1573999210944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$04random.coverage" NAME="04random模块 Coverage Results" MODIFIED="1563357519411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/01python$08.coverage" NAME="08类测试 Coverage Results" MODIFIED="1573801426383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33其他" />
+    <SUITE FILE_PATH="coverage/01python$032.coverage" NAME="03进程池2 Coverage Results" MODIFIED="1564817932851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
+    <SUITE FILE_PATH="coverage/01python$04_.coverage" NAME="04_学生管理 Coverage Results" MODIFIED="1563123271613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001" />
+    <SUITE FILE_PATH="coverage/01python$client3.coverage" NAME="client3 Coverage Results" MODIFIED="1564644588203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/04进程池实现socket" />
+    <SUITE FILE_PATH="coverage/01python$05re.coverage" NAME="05re模块计算器作业 Coverage Results" MODIFIED="1573713427629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04正则re模块" />
+    <SUITE FILE_PATH="coverage/01python$05id.coverage" NAME="05插入关联的自增id Coverage Results" MODIFIED="1567661608562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22MySQL" />
+    <SUITE FILE_PATH="coverage/01python$03redis.coverage" NAME="03redis之事务操作 Coverage Results" MODIFIED="1579942304380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110redis" />
+    <SUITE FILE_PATH="coverage/01python$11.coverage" NAME="11 Coverage Results" MODIFIED="1566368730567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$07udp_c2t.coverage" NAME="07udp_c2t Coverage Results" MODIFIED="1563793889220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$03server.coverage" NAME="03server作业 Coverage Results" MODIFIED="1563780577244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/01python$02_c.coverage" NAME="02网盘_c Coverage Results" MODIFIED="1563872620147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/01python$04hashlib.coverage" NAME="04hashlib作业 Coverage Results" MODIFIED="1564197056742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+    <SUITE FILE_PATH="coverage/01python$02__s.coverage" NAME="02大文件的传输--s Coverage Results" MODIFIED="1565881109660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/01python$01sql__sql_.coverage" NAME="01sql登陆+(sql注入) Coverage Results" MODIFIED="1573713548391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22MySQL" />
+    <SUITE FILE_PATH="coverage/01python$05udp_s.coverage" NAME="05udp_s Coverage Results" MODIFIED="1563793884829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11网络编程" />
+    <SUITE FILE_PATH="coverage/01python$02client2.coverage" NAME="02client2 Coverage Results" MODIFIED="1564043376032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day14/02socketserver" />
+    <SUITE FILE_PATH="coverage/01python$01sql___.coverage" NAME="01sql登陆+(正确方式) Coverage Results" MODIFIED="1567659187649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22MySQL" />
+    <SUITE FILE_PATH="coverage/01python$01server__1_.coverage" NAME="01server (1) Coverage Results" MODIFIED="1564371438332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16多进程/04使用多进程实现socket服务" />
+    <SUITE FILE_PATH="coverage/01python$2.coverage" NAME="2 Coverage Results" MODIFIED="1564644773247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18/04进程池实现socket" />
+    <SUITE FILE_PATH="coverage/01python$clinet2.coverage" NAME="clinet2 Coverage Results" MODIFIED="1564905883172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/03基于协程的socket" />
+    <SUITE FILE_PATH="coverage/01python$format.coverage" NAME="format Coverage Results" MODIFIED="1566870597325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$11_py.coverage" NAME="11_文件传递含有py的文件 Coverage Results" MODIFIED="1563167561543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001" />
+    <SUITE FILE_PATH="coverage/01python$03struct.coverage" NAME="03struct模块 Coverage Results" MODIFIED="1563937113868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
+    <SUITE FILE_PATH="coverage/01python$012_wraps.coverage" NAME="01装饰器2 wraps Coverage Results" MODIFIED="1564825591374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01python$redisDemo.coverage" NAME="redisDemo Coverage Results" MODIFIED="1579934907455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110" />
+    <SUITE FILE_PATH="coverage/01python$04.coverage" NAME="04手写一个栈 Coverage Results" MODIFIED="1580280856433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110redis" />
+    <SUITE FILE_PATH="coverage/01python$01.coverage" NAME="01练习 Coverage Results" MODIFIED="1577866333349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day000" />
+    <SUITE FILE_PATH="coverage/01python$03__1_.coverage" NAME="03监听文件输入的例子 (1) Coverage Results" MODIFIED="1562764978594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01python$02__1_.coverage" NAME="02生成器 (1) Coverage Results" MODIFIED="1562903212204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03" />
+    <SUITE FILE_PATH="coverage/01python$start.coverage" NAME="start Coverage Results" MODIFIED="1564881279773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15ftp/server/bin" />
+    <SUITE FILE_PATH="coverage/01python$02redis.coverage" NAME="02redis之列表操作 Coverage Results" MODIFIED="1580282681005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110redis" />
+    <SUITE FILE_PATH="coverage/01python$TanKe.coverage" NAME="TanKe Coverage Results" MODIFIED="1563426094171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../01_坦克大战" />
+    <SUITE FILE_PATH="coverage/01python$03__c.coverage" NAME="03大文件的传输--c Coverage Results" MODIFIED="1565881113045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day13" />
+    <SUITE FILE_PATH="coverage/01python$01redisDemo.coverage" NAME="01redisDemo Coverage Results" MODIFIED="1580284090958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day110redis" />
+    <SUITE FILE_PATH="coverage/01python$01__1_.coverage" NAME="01 (1) Coverage Results" MODIFIED="1565490794792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/01python$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1564987133619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/04IO多路复用" />
+    <SUITE FILE_PATH="coverage/01python$.coverage" NAME="二分查找算法 Coverage Results" MODIFIED="1563174768274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/01python$client.coverage" NAME="client Coverage Results" MODIFIED="1564987764774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/04IO多路复用" />
+    <SUITE FILE_PATH="coverage/01python$03_re.coverage" NAME="03 re模块正则表达式 Coverage Results" MODIFIED="1563336369349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/01python$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1564905740222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day15ftp/client/bin" />
+    <SUITE FILE_PATH="coverage/01python$01sys.coverage" NAME="01sys模块 Coverage Results" MODIFIED="1563422351233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/01python$052.coverage" NAME="05装饰器作业2 Coverage Results" MODIFIED="1562761911800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01" />
+    <SUITE FILE_PATH="coverage/01python$05.coverage" NAME="05进程池的返回值 Coverage Results" MODIFIED="1564819234483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day18" />
+    <SUITE FILE_PATH="coverage/01python$oo.coverage" NAME="oo Coverage Results" MODIFIED="1574583434473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day34/xx" />
+    <SUITE FILE_PATH="coverage/01python$server.coverage" NAME="server Coverage Results" MODIFIED="1564905867658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day21/03基于协程的socket" />
+    <SUITE FILE_PATH="coverage/01python$00.coverage" NAME="00今日面试题 Coverage Results" MODIFIED="1567238216177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day30" />
+    <SUITE FILE_PATH="coverage/01python$12_.coverage" NAME="12_筛子游戏 Coverage Results" MODIFIED="1563123334240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day001" />
+    <SUITE FILE_PATH="coverage/01python$02client__1_.coverage" NAME="02client (1) Coverage Results" MODIFIED="1564370841124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day16多进程/04使用多进程实现socket服务" />
+    <SUITE FILE_PATH="coverage/01python$03hashlib.coverage" NAME="03hashlib模块 Coverage Results" MODIFIED="1577773290919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day29/03登陆校验.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day29/05表格反选作业.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day30/02键盘相关事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day26/11z-index登陆框示例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day26/04display属性.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day26/02鼠标滚动背景不动.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day29/01修改css样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day29/04属性操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day27 JS/06select联动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day27 JS/07js内置方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day27 JS/03class相关操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day26/09定位示例.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day26/08overflow溢出属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day34/01字符串导入模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/userinfo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/file_md5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/03hashlib模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.7_3.7.1776.0_x64__qbz5n2kfra8p0/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/04hashlib作业.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/02面向对象进阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/01内置函数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="116045" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/33排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/backup-store_xj.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/04_学生管理.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/001常用小知识.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05time,random模块/02time模块.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33其他/07时间间隔.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/01logging模块.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/02包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/03带参数的装饰器.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/02装饰器作业.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/01装饰器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day99VUE/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/01练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day31Bootstrap/05登陆.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day000/format.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day99VUE/01vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-829340636/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156600">
+          <caret line="5220" column="11" selection-start-line="5220" selection-start-column="11" selection-end-line="5220" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/02redis之列表操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/03redis之事务操作.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/04手写一个栈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/01redisDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0/LocalCache/local-packages/Python37/site-packages/redis/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8340">
+          <caret line="308" column="28" selection-start-line="308" selection-start-column="28" selection-end-line="308" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0/LocalCache/local-packages/Python37/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24810">
+          <caret line="852" column="42" selection-start-line="852" selection-start-column="42" selection-end-line="852" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day34/xx/oo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day30/03点赞特效.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/redis单例模式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day110redis/05redis_购物车.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index</title>
+    <style>
+        .cover{
+            position: absolute;
+            top: 0;
+            right:0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.4);
+            z-index: 999;
+        }
+        .demo{
+            width: 800px;
+            height: 600px;
+            background: white;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -300px;
+            margin-left:-400px;
+            z-index:1000;
+        }
+    </style>
+</head>
+<body>
+<div class="demo"></div>
+<div class="cover"></div>
+</body>
+</html>

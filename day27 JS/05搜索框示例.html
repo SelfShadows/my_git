@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #i1{
+            color: rgba(54,54,54,0.4);
+        }
+    </style>
+</head>
+<body>
+<input id="i1" type="text" value="电竞椅">
+<input id="" type="button" value="搜索">
+<script>
+    // 找到input框
+    var i1Ele=document.getElementById('i1');
+    // 得到焦点后做的事(这是一个匿名函数)
+    i1Ele.onfocus=function () {
+        i1Ele.value='';
+        i1Ele.style.color= 'rbg(255,255,255)';
+    }
+    // 失去焦点后做的事
+    i1Ele.onblur=function (){
+        // trim()去空格
+        if (i1Ele.value.trim()==''){
+            i1Ele.value='电竞椅'
+        }
+    }
+</script>
+</body>
+</html>

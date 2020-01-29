@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>表格增删改作业</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #d1 {
+            background-color: rgba(0, 0, 0, 0.4);
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        #d2 {
+            background-color: white;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+            z-index: 1000;
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<button id="add">新增</button>
+<table border="1">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>姓名</th>
+        <th>爱好</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>小李</td>
+        <td>羽毛球</td>
+        <td>
+            <button class="edit">编辑</button>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>阿保机</td>
+        <td>篮球</td>
+        <td>
+            <button class="edit">编辑</button>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>老肖</td>
+        <td>足球</td>
+        <td>
+            <button class="edit">编辑</button>
+            <button class="del">删除</button>
+        </td>
+    </tr>
+    </tbody>
+    <div id="d1" class="c1 hide"></div>
+    <div id="d2" class="c1 hide">
+        <p>姓名
+            <input type="text" id="name">
+        </p>
+        <p>爱好
+            <input type="text" id="hobby">
+        </p>
+        <button id="tj">提交</button>
+        <button id="qx">取消</button>
+    </div>
+
+</table>
+
+<script src="jquery-3.4.1.js"></script>
+<script>
+    $(document).ready(function () {
+
+        var $tbodyEle = $('tbody');
+
+        // 显示模态框
+        function show() {
+            $('.c1').removeClass('hide');
+        }
+
+        // 隐藏模态框
+        function hide() {
+            $('#name').val('');
+            $('#hobby').val('');
+            $('.c1').addClass('hide');
+        }
+
+
+        var $addEle = $('#add');
+        $addEle.data('data', $tbodyEle.find('tr'));
+
+        // 增加按钮绑定点击事件
+        $addEle.on('click', function () {
+            show()
+        });
+
+        // 提交按钮绑定点击事件
+        $('#tj').on('click', function () {
+            // 保存用户填写的值
+            var name = $('#name').val();
+            var hobby = $('#hobby').val();
+
+            var $dataTr = $('#d2').data('tr');
+            console.log($dataTr);
+            if ($dataTr !== undefined) {
+                $dataTr.children().eq(1).text(name);
+                $dataTr.children().eq(2).text(hobby);
+
+                // 清空之前的行
+                $('#d2').removeData()
+            }
+            else {
+                // 创建一tr标签
+                var $trEle = document.createElement('tr');
+                // 获取当前行数
+                var i = $tbodyEle.find('tr').length;
+                // $($trEle).html('');
+                $($trEle).html("<td>" + (i + 1) + "</td>\n" +
+                    "        <td>" + name + "</td>\n" +
+                    "        <td>" + hobby + "</td>\n" +
+                    "        <td>\n" +
+                    "            <button class=\"edit\">编辑</button>\n" +
+                    "            <button class=\"del\">删除</button>\n" +
+                    "        </td>");
+                $("tbody").append($trEle);
+            }
+            hide()
+        });
+
+        // 编辑按钮绑定点击事件
+        $tbodyEle.on("click", ".edit", function () {
+            show();
+            var $trEle = $(this).parent().parent();
+            // 把当前jQuery对象保存起来
+            $('#d2').data('tr', $trEle);
+
+            name1 = $trEle.children().eq(1).text();
+            hobby1 = $trEle.children().eq(2).text();
+
+
+            $('#name').val(name1);
+            $('#hobby').val(hobby1);
+
+
+        });
+
+        // 取消按钮绑定点击事件
+        $("#qx").on("click", function () {
+            // 清空name和hobby的值
+            hide()
+        })
+
+        // 删除按钮绑定点击事件
+        $tbodyEle.on('click', '.del', function () {
+            var $trEle = $(this).parent().parent();
+
+            // 找到删除标签后面的每行数据并是第一列数减1
+            $trEle.nextAll().each(function () {
+                number = $(this).children().first().text();
+                $(this).children().first().text(number - 1)
+            });
+
+            $trEle.remove();
+
+
+        })
+
+
+    });
+
+</script>
+
+</body>
+</html>

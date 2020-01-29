@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>display属性</title>
+    <style>
+        /*初始化所有margin为0*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .c1{
+            background: red;
+            /*修改为类联标签*/
+            display: inline;
+        }
+        .c2{
+            background: blue;
+            /*修改为块级标签，只有块级标签能够设置长和宽*/
+            display: block;
+            width: 500px;
+        }
+        .c3{
+            background: yellow;
+            width: 500px;
+
+        }
+        .i3{
+
+            display: inline;
+            /*padding-right: 15px;*/
+            /*border-right:  1px solid #666666;*/
+        }
+        .c4{
+            background: #e3e4e5;
+            margin:0 0;
+            padding: 0 0px 0 200px;
+        }
+        li.last{
+            display: inline;
+        }
+        li>a{
+            color: #999;
+            border-right:1px solid #999;
+            padding:0px 15px;
+            text-decoration: none;
+        }
+        .c5{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="c4">
+        <li class="i3"><a href="">主机</a></li>
+        <li class="i3"><a href="">显示器</a></li>
+        <li class="i3"><a href="">鼠标</a></li>
+        <li class="last"><a href="">键盘</a></li>
+    </ul>
+     <ul class="c5">
+        <li>电脑</li>
+        <li>键盘</li>
+        <li>显示器</li>
+        <li>鼠标</li>
+    </ul>
+
+    <div class="c1">div</div>
+    <span class="c2">span c2</span>
+    <span class="c3">span c3</span>
+
+
+</body>
+</html>

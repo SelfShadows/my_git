@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--注册示例-->
+<form action="">
+    <p>用户名：
+<!--                                       readonly(设置只读)-->
+        <input name="username" type="text" readonly value="请输入用户名">
+        <input name="username" type="text"  placeholder="请输入用户名">
+    </p>
+    <p>密码:
+        <input name="password" type="password">
+    </p>
+    <!--    radio(单选)checkbox(多选)checked(默认选项)-->
+    <p>性别1:
+        <input name="gender" type="radio" value="0">男
+        <input name="gender" type="radio" value="1">女
+        <input checked name="gender" type="radio" value="2">保密
+    </p>
+    <p>性别2:
+        <input id="r1" name="gender" type="radio" value="0">
+        <label for="r1">男</label>
+        <input id="r2" name="gender" type="radio" value="1">
+        <label for="r2">女</label>
+        <input id="r3" checked name="gender" type="radio" value="2">
+        <label for="r3">保密</label>
+    </p>
+    <p>爱好：
+        <input name="hobby" type="checkbox" value="basketball">篮球
+        <input name="hobby" type="checkbox" value="football">足球
+        <input checked name="hobby" type="checkbox" value="badminton">羽毛球
+    </p>
+    <p>
+        <select name="addr1" id="s1">
+            <option value="">北京</option>
+            <option value="">上海</option>
+            <option value="">四川</option>
+        </select>
+
+        <select name="addr1" id="s3" multiple>
+            <option value="">北京</option>
+            <option value="">上海</option>
+            <option value="">四川</option>
+        </select>
+
+        <select name="addr2" id="s2">
+        <optgroup label="四川">
+            <option value="cd">成都</option>
+            <option value="my">绵阳</option>
+            <option value="cq">重庆</option>
+        </optgroup>
+        <optgroup label="北京">
+            <option value="">朝阳</option>
+            <option value="">昌平</option>
+            <option value="">丰台</option>
+        </optgroup>
+        <optgroup label="上海">
+            <option value="">浦东新区</option>
+            <option value="">绵阳</option>
+            <option value="">重庆</option>
+        </optgroup>
+    </select></p>
+    <p>
+        <textarea name="info" id="haha" cols="30" rows="10"></textarea>
+    </p>
+
+    <p>头像:
+        <input name="tx" type="file" value="jgp">
+    </p>
+    <p>生日:
+        <input name="birthday" type="date" >
+    </p>
+    <p>邮箱:
+        <input name="email" type="email">
+    </p>
+    <input type="submit" value="提交哈哈">
+<!--    reset(回到初始状态)button(普通按钮,默认没用)-->
+    <p><input type="reset" value="reset"></p>
+
+    <p><input type="button" value="button"></p>
+
+</form>
+
+</body>
+</html>

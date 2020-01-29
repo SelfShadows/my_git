@@ -1,0 +1,41 @@
+import socket
+
+user='li'
+paswd='123'
+sk=socket.socket()
+sk.bind(('192.168.0.24',8080))
+sk.listen()
+
+conn,addr=sk.accept()
+
+conn.send(bytes('请输入用户名和密码'.encode('utf-8')))
+u1=conn.recv(1024).decode('utf-8')
+p1=conn.recv(1024).decode('utf-8')
+print(type(u1),type(p1))
+if u1==user and p1==paswd:
+    conn.send(bytes('登陆成功'.encode('utf-8')))
+    # conn.send(bytes('上传请按1，下载请按2，按0退出'.encode('utf-8')))
+    while True:
+        cmd = conn.recv(1024).decode('utf-8')
+        if cmd=='1':
+            conn.send(bytes('选择要上传的文件路径'.encode('utf-8')))
+            pwd = conn.recv(1024).decode('utf-8')
+            with open('b.txt','w',encoding='utf-8') as f:
+                inner = conn.recv(1024).decode('utf-8')
+                f.write(inner)
+                break
+        elif cmd=='2':
+            conn.send(bytes('正在下载'.encode('utf-8')))
+        elif cmd=='0':
+            conn.send(bytes('已退出'.encode('utf-8')))
+        else:
+            conn.send(bytes('输入错误'.encode('utf-8')))
+
+
+else:
+    conn.send(bytes('用户名和密码错误'.encode('utf-8')))
+
+
+
+conn.close()
+sk.close()

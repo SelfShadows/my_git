@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>属性操作</title>
+</head>
+<body>
+<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566908098220&di=b22c0be200f3f2a384aaae63fee7299c&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201507%2F22%2F20150722161821_RkjUX.jpeg" alt="">
+<p>
+<input id="d1" type="button" value="下一个">
+</p>
+<script src="jquery-3.4.1.js"></script>
+<script>
+
+    var newImg='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1566908098214&di=d550b3785d5ca2ed6e444ebfe36c4b56&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fpic%2Fitem%2Ffe503a381f30e924d40f0cc24c086e061c95f777.jpg'
+    $('#d1').click(function () {
+        var oldImg=$('img').attr('src')
+        $('img').attr('src',newImg)
+        newImg=oldImg
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+2019-07-21 14:24:32,633 - root - WARNING - 警告信息
+2019-07-21 14:24:32,633 - root - ERROR - error message
+2019-07-21 14:24:32,633 - root - CRITICAL - critical message
+2019-07-21 14:25:18,186 - root - WARNING [line:21] - 警告信息
+2019-07-21 14:25:18,186 - root - ERROR [line:22] - error message
+2019-07-21 14:25:18,186 - root - CRITICAL [line:23] - critical message
+2019-07-21 14:25:45,227 - root - WARNING [line:21] - 警告信息
+2019-07-21 14:25:45,228 - root - ERROR [line:22] - error message
+2019-07-21 14:25:45,228 - root - CRITICAL [line:23] - critical message
+2019-07-21 14:27:57,321 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:27:57,322 - root - ERROR [line:26] - error message
+2019-07-21 14:27:57,322 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:28:47,749 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:28:47,749 - root - ERROR [line:26] - error message
+2019-07-21 14:28:47,749 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:28:50,574 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:28:50,575 - root - ERROR [line:26] - error message
+2019-07-21 14:28:50,575 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:28:52,551 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:28:52,551 - root - ERROR [line:26] - error message
+2019-07-21 14:28:52,551 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:28:53,328 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:28:53,328 - root - ERROR [line:26] - error message
+2019-07-21 14:28:53,328 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:28:53,895 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:28:53,896 - root - ERROR [line:26] - error message
+2019-07-21 14:28:53,896 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:29:28,873 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:29:28,874 - root - ERROR [line:26] - error message
+2019-07-21 14:29:28,874 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:29:47,120 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:29:47,120 - root - ERROR [line:26] - error message
+2019-07-21 14:29:47,120 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:29:54,629 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:29:54,629 - root - ERROR [line:26] - error message
+2019-07-21 14:29:54,629 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:31:18,173 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:31:18,173 - root - ERROR [line:26] - error message
+2019-07-21 14:31:18,173 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:31:58,663 - root - WARNING [line:25] - 警告信息
+2019-07-21 14:31:58,663 - root - ERROR [line:26] - error message
+2019-07-21 14:31:58,664 - root - CRITICAL [line:27] - critical message
+2019-07-21 14:32:11,163 - root - WARNING [line:25] : 警告信息
+2019-07-21 14:32:11,163 - root - ERROR [line:26] : error message
+2019-07-21 14:32:11,163 - root - CRITICAL [line:27] : critical message

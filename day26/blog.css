@@ -1,0 +1,105 @@
+/*
+博客页面相关css
+*/
+/*767776*/
+/*238,237,237*/
+/*border: 2px dashed white;（虚线）*/
+
+/*通用样式*/
+
+*{
+    font-family: "微软雅黑","Microsoft YaHei","PingFang SC","ARial";
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+/*清除a标签下划线*/
+a{
+    text-decoration: none;
+}
+
+
+/*左边栏样式*/
+.left{
+    background: rgb(76,77,76);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    /*文字居中*/
+    text-align: center;
+}
+/*头像样式*/
+.head-image{
+    width: 120px;
+    height: 120px;
+    border: 2px white solid;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.head-image>img{
+    max-width: 100%;
+}
+/*名称*/
+.name{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.describe{
+    color: white;
+    border: 2px solid white;
+    margin: 10px 12%;
+}
+
+.content ,
+.language {
+    margin: 20px 0;
+}
+.content a,
+.language a{
+    color: white;
+}
+.language a:before{
+    content: '#';
+}
+
+
+/*右边栏样式*/
+
+.right{
+    width: 80%;
+    height: 1500px;
+    background: rgb(238,237,237);
+    float: right;
+}
+.background{
+
+    margin: 40px 10% 20px 30px;
+}
+
+.title{
+    /*修改为内联标签*/
+    display: inline-block;
+}
+.date{
+    float: right;
+}
+.content_list{
+    border-left: 2px solid red;
+    padding: 20px 20px;
+}
+.article-info{
+    padding: 15px 20px;
+}
+.article-tag{
+    padding: 10px 0;
+    margin: 0 20px;
+    border-top: 1px #999999 solid;
+}
+.article{
+    background: white;
+    margin: 20px 0;
+
+}

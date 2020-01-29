@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #i1{
+            border: 1px red solid;
+
+        }
+        .c1{
+            height: 100px;
+            float: left;
+        }
+        .c2{
+            height: 100px;
+            float: left;
+        }
+        /*#i1:after{*/
+        /*    content:'';*/
+        /*    !*让左右都没有浮动标签*!*/
+        /*    clear: both;*/
+        /*    display: block;*/
+        /*}*/
+        .clearfix:after{
+            content:'';
+            /*让左右都没有浮动标签*/
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="i1" class="clearfix">
+    <div class="c1">c1</div>
+    <div class="c2">c2</div>
+</div>
+</body>
+</html>
