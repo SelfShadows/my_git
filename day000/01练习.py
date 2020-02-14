@@ -7,7 +7,7 @@
 # f(2)
 # f(3,[3,2,1])
 # f(3)
-
+# hello
 #乘法口诀表
 # for i in range(1,10):
 #     for x in range(1,i+1):

@@ -5,7 +5,7 @@ from day110redis.redis单例模式 import my_redis
 conn = redis.Redis(connection_pool=my_redis.POOL)
 # conn.flushall()  # 清楚所有缓存
 # v = conn.keys()  # 所有键
-'''
+'''购物车：
 第一版：
 redis = {
     luffy_shopping_car : {
@@ -46,8 +46,22 @@ redis = {
 #     print(course)
 
 print(conn.keys())
-print(conn.hgetall('shopping_car_2_1'))
-ret = conn.hget('shopping_car_2_1', 'policy')
-ret = json.loads(ret.decode())
-print(ret)
+# print(conn.exists('shopping_car_2_1'))  # 判断是否有这个key 有返回1，没有返回0
+# """结算：
+#     redis = {
+#     "payment_userId_curseId": {
+#     "course_id" :
+#     "policy_date" ：
+#     "price" :
+#     "coupon": {}
+#     }
+# }
+# """
+# payment_list = []
+#
+# for i in conn.scan_iter("payment_2_*"):
+#     print(conn.hgetall(i))
+#
+# print(conn.hgetall("payment_global_2"))
+
 

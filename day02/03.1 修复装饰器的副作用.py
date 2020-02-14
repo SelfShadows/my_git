@@ -18,3 +18,4 @@ def func():
     print('小李')
 func()
 print(func.__doc__)
+print('__name__=',func.__name__)

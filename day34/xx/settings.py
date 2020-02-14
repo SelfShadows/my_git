@@ -1,9 +1,9 @@
 
-name = "小黑"
-
 
 class Person():
     _ww = "ff"
+    DEBUG = True
+    TEXT = False
 
     def __init__(self, name):
         self.name = name
@@ -12,10 +12,12 @@ class Person():
     def _dream(self):
         print("{}在做梦".format(self.__bb))
 
+    @property
+    def RUN(self):
+        print('run起来了')
+        return "返回值"
+
     def __str__(self):
 
         return "{}".format(self.__bb)
 
-p = Person("小李")
-p._dream()
-print(p)

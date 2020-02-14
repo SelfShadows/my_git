@@ -19,8 +19,8 @@ class A:
 a = A('alex')
 print(a)  # 执行str方法,没有str方法会执行repr方法
 print('%s' % a)  # 同样执行str方法,没有str方法会执行repr方法
-
+#
 print('%r' % a)  # 执行repr方法
 print(a.__repr__())  # 执行repr方法
-
+#
 a()  # 执行__call__方法  没有  call  方法会报错
